@@ -6,7 +6,7 @@ sudo: required
 before_install:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
-  - chmod +x deploy/*.sh
+  - chmod +x bin/*.sh
 install:
   - bin/setup_cli.sh
   - bin/turn_aws_ec2_on_off.sh
