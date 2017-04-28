@@ -5,5 +5,5 @@ if [ "$state" == "stopped" ]; then
     echo "Instance $instanceId has already been stopped."
 else
     echo "Stop instance $instanceId"
-    aws ec2 stop-instances --instance-ids $instanceId
+    aws ec2 start-instances --instance-ids $instanceId
 fi
