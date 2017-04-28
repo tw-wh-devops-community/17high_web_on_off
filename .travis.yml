@@ -1,3 +1,7 @@
+branches:
+  only:
+  - web_on
+  - web_off
 language: java
 jdk:
   - oraclejdk8
